@@ -48,5 +48,9 @@ E aplique suas configurações com `source /etc/profile`
 **Execute o projeto**
 1. Execute com `python app.py`
 
+**Executando com Docker 📦**
+1. Entre no diretório do projeto e execute `docker build -t <nome da imagem>:<tag> .`
+2. Apos o build execute o comando `docker run -it -p <porta personalizada> <nome da imagem>:<tag>`
+
 ### 5 - Como Acessar?
 Com a aplicação em execução abra o navegador em `localhost:8080`
